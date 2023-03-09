@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Press Start 2P");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+.bucc{
+  font-family: "Press Start 2P", sans-serif;
+  position: absolute;
+  font-size: 30px;
+  top: 2rem;
+  left: 40rem;
+  color: rgb(39, 12, 138);
+  margin-left: 50px;
+}
+
+
+.logo1{
+  margin: 20px;
+  margin-top: 20px;
+  padding: 16px;
+  width: 100px;
+  cursor: pointer;
+  margin-left: 80px;
+  /* filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(10px 10px 10px rgb(123, 123, 214)); */
+  
+}
+
+
+body {
+  
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+  background-color: rgb(252, 252, 252);
+  
+  display: flex;
+}
+.cover{
+  width: 800px;
+  height: 400px;
+  /* background: black; */
+  margin-top: 300px;
+}
+.newton{
+  color: brown;
+  font-size: 1.2rem;
+}
+.steve{
+  display: flex;
+  
+  height: 200px;
+  width: 200px;
+  margin-top: -20px;
+
+}
+.ae{
+  display: flex;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.backg{
+  background-image: url(image/bac.png.jpg);
+  position: static;
+  width: 3000px;
+  height: 850px;
+}
+h3{
+  color: black;
+  margin-top: 100px;
+  font-size: 2rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.clu{
+  display: flex;
+  position: relative;
+  height: 400px;
+  width: 700px;
+  margin-top: 105px;
+  margin-left: 60px;
+
+}
+.regi{
+  display: flex;
+  position: relative;
+  height: 200px;
+  width: 170px;
+  margin-left: 40px;
+  text-shadow: -1px 0 10px black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(10px 10px 10px rgb(6, 6, 86));
+}
+.regf{
+  color: black;
+  margin-top: 20px;
+  margin-left: 55px;
+  font-size: 12px;
+  font-family: "Bodoni MT", sans-serif;
+}
+.click{
+  font-family: "Jazz LET", sans-serif;
+  color: rgb(228, 82, 29);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.779);
+  margin-left: 210px;
+  margin-top: 30px;
+  
+}
+.clickb{
+  background-color: rgba(0, 0, 0, 0.696);
+  border: 10px ridge rgb(28, 9, 148);
+  font-family: "Rockwell", sans-serif;
+  margin-top: 20px;
+  margin-left: 320px;
+  position: absolute;
+  width: 200px;
+  height: 70px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  filter: brightness(20%);
+   filter: contrast(20%);
+   filter: drop-shadow(5px 5px 5px rgb(14, 14, 181));
+}
